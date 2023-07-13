@@ -1,0 +1,2 @@
+from clean_folder.clean import path_function
+from clean_folder.normalize import normalize

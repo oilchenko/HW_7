@@ -5,14 +5,8 @@ import sys
 import gzip
 
 import clean_folder.file_parser as parser
-# from file_parser import file_parser as parser
 from clean_folder.normalize import normalize
 
-# import clean_folder.file_parser as parser
-# import clean_folder.normalize as normalize
-
-# from clean_folder.file_parser import file_parser as parser
-# from clean_folder.normalize import normalize as normalize
 
 def handle_file(filename: Path, target_folder: Path):
     target_folder.mkdir(exist_ok=True, parents=True)
